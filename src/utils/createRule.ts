@@ -2,7 +2,5 @@ import { ESLintUtils } from "@typescript-eslint/utils";
 
 export const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://example.com/we-have-not-set-up-docs-for-this/this-url-is-a-placeholder/rule/${encodeURIComponent(
-      name
-    )}`
+    `https://github.com/BrandSourceDigital/eslint-plugin-avb-hub/blob/main/docs/rules/${name}.md`
 );

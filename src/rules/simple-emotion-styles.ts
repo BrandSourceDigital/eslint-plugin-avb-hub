@@ -74,7 +74,7 @@ export const simpleEmotionStyles = createRule({
   meta: {
     docs: {
       description:
-        "Function declaration names should start with an upper-case letter.",
+        "Simplifies style expressions used with the Emotion library.",
       recommended: "warn",
     },
     type: "suggestion",
