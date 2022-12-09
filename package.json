@@ -1,7 +1,6 @@
 {
-  "name": "eslint-plugin-avbhub",
+  "name": "eslint-plugin-avb-hub",
   "version": "0.1.0",
-  "private": true,
   "description": "Custom ESLint rules for the HUB project.",
   "main": "dist/index.js",
   "scripts": {
