@@ -219,6 +219,13 @@ exports.simpleEmotionStyles = (0, createRule_1.createRule)({
                         // Skip the next node because we are already doing something with it.
                         skipNextNode = true;
                     }
+                    else {
+                        // TODO: Simplify nested selector styles.
+                    }
+                }
+                else {
+                    // TODO: Simplify styles in ConditionalExpression.
+                    // TODO: Change `condition && style` to `condition ? style : null`.
                 }
             }
         }

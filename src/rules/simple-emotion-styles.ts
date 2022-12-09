@@ -290,7 +290,12 @@ export const simpleEmotionStyles = createRule({
             combineAdjacentObjects(node, nextNode);
             // Skip the next node because we are already doing something with it.
             skipNextNode = true;
+          } else {
+            // TODO: Simplify nested selector styles.
           }
+        } else {
+          // TODO: Simplify styles in ConditionalExpression.
+          // TODO: Change `condition && style` to `condition ? style : null`.
         }
       }
     }
